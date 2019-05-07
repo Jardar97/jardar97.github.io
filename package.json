@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "homepage" : "http://jardar97.github.io/fogpillars",    
+    "homepage" : "https://jardar97.github.io/fogpillars",    
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0",
