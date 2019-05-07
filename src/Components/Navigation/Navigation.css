@@ -1,0 +1,20 @@
+nav {
+	display: flex;
+	justify-content: left;
+}
+nav a {
+	  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  width: 60px;
+  margin-left: 20px;
+
+}
