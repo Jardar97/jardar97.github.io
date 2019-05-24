@@ -1,0 +1,28 @@
+
+
+.rectangle {
+	background-color: white;
+
+  height: 30vh;
+  width: 15vh;
+  min-height: 100px;
+   border-radius: 10px; 
+
+}
+
+.test {
+  margin: auto;
+  height: 100%;
+  padding: 10px;
+  border: green;
+}
+
+.active {
+     background-color: #FFC000;
+height: 30vh;
+  width: 15vh;
+  min-height: 100px;
+   border-radius: 10px; 
+
+
+}

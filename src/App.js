@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Navigation from './Components/Navigation/Navigation';
 import Footer from './Components/Footer/Footer';
-import PillarComplete from './Components/PillarComplete/PillarComplete';
+import AllPillars from './Components/AllPillars/AllPillars';
+
 
 import 'tachyons';
 import './App.css';
@@ -11,8 +11,10 @@ class App extends Component {
     return (
       <div className="App"> 
       {/*<Navigation />*/}
-            <PillarComplete />
 
+      <div className="content-wrap">
+        <AllPillars />
+      </div>
       <div className="Footer"> 
         <Footer/>
 

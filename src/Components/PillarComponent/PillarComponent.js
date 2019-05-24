@@ -5,11 +5,16 @@ const PillarComponent = ({ id, name, onClick, active}) => {
 
 	
 	return (
-	     <div className="tc dib br3 pa3 bw2 grow">
-	     <h4>{name}</h4>
-	     <div className={"rectangle"} onClick={() => onClick(id) }>
-      </div>
-	     </div>
+	     <div className="ba">
+          <div className="dib br3 ma2 pa2">
+                 <h4>TEST</h4>
+                 <div className="rectangle"></div>
+          </div>
+          <div className="dib br3 ma2 pa2">
+                 <h4>TEST</h4>
+                 <div className="rectangle"></div>
+          </div>
+        </div>
       
 
 	);
